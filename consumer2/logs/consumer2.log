@@ -1,0 +1,418 @@
+2025-10-19 11:06:34,293 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:06:34,294 [INFO] Probing node bootstrap-0 broker version
+2025-10-19 11:12:30,575 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:12:30,575 [INFO] Probing node bootstrap-0 broker version
+2025-10-19 11:14:15,541 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:14:15,541 [INFO] Probing node bootstrap-0 broker version
+2025-10-19 11:14:15,585 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:14:15,735 [INFO] Broker version identified as 2.5.0
+2025-10-19 11:14:15,735 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-10-19 11:14:15,736 [INFO] Updating subscribed topics to: ('topic_net', 'topic_disk')
+2025-10-19 11:14:15,736 [INFO] Consumer2 started. Listening to ['topic_net', 'topic_disk']
+2025-10-19 11:14:15,783 [INFO] Group coordinator for team-consumer2-fast is BrokerMetadata(nodeId='coordinator-1', host='10.147.17.172', port=9092, rack=None)
+2025-10-19 11:14:15,783 [INFO] Discovered coordinator coordinator-1 for group team-consumer2-fast
+2025-10-19 11:14:15,784 [INFO] Starting new heartbeat thread
+2025-10-19 11:14:15,784 [INFO] Revoking previously assigned partitions set() for group team-consumer2-fast
+2025-10-19 11:14:15,785 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:14:15,886 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:14:15,887 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 11:14:15,988 [INFO] (Re-)joining group team-consumer2-fast
+2025-10-19 11:14:15,989 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:14:16,042 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:14:16,050 [INFO] Elected group leader -- performing partition assignments using range
+2025-10-19 11:14:16,051 [WARNING] No partition metadata for topic topic_net
+2025-10-19 11:14:16,051 [WARNING] No partition metadata for topic topic_disk
+2025-10-19 11:14:16,103 [INFO] Successfully joined group team-consumer2-fast with generation 1
+2025-10-19 11:14:16,103 [INFO] Updated partition assignment: []
+2025-10-19 11:14:16,103 [INFO] Setting newly assigned partitions set() for group team-consumer2-fast
+2025-10-19 11:14:16,103 [INFO] Revoking previously assigned partitions set() for group team-consumer2-fast
+2025-10-19 11:14:16,103 [INFO] (Re-)joining group team-consumer2-fast
+2025-10-19 11:14:16,169 [INFO] Elected group leader -- performing partition assignments using range
+2025-10-19 11:14:16,214 [INFO] Successfully joined group team-consumer2-fast with generation 2
+2025-10-19 11:14:16,215 [INFO] Updated partition assignment: [TopicPartition(topic='topic_disk', partition=0), TopicPartition(topic='topic_net', partition=0)]
+2025-10-19 11:14:16,215 [INFO] Setting newly assigned partitions {TopicPartition(topic='topic_disk', partition=0), TopicPartition(topic='topic_net', partition=0)} for group team-consumer2-fast
+2025-10-19 11:14:16,216 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:14:16,316 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:14:16,317 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 11:15:36,529 [ERROR] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: socket disconnected
+2025-10-19 11:15:36,530 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: socket disconnected
+2025-10-19 11:15:36,532 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:36,533 [ERROR] Fetch to node 1 failed: KafkaConnectionError: socket disconnected
+2025-10-19 11:15:36,533 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 11:15:36,533 [WARNING] Node coordinator-1 connection failed -- refreshing metadata
+2025-10-19 11:15:36,534 [WARNING] Marking the coordinator dead (node coordinator-1) for group team-consumer2-fast: Node Disconnected.
+2025-10-19 11:15:36,536 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:37,644 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:37,645 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:37,646 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:37,747 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:37,849 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:37,849 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:37,849 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:37,950 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:38,053 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:38,053 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:38,053 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:38,459 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:38,499 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:38,499 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:38,499 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:39,462 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:39,504 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:39,505 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:39,505 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:40,366 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:40,399 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:40,399 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:40,400 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:41,312 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:41,350 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:41,350 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:41,350 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:42,314 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:42,350 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:42,350 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:42,350 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:43,313 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:43,369 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:43,370 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:43,370 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:44,484 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:44,525 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:44,525 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:44,526 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:45,438 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:45,474 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:45,475 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:45,475 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:46,388 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:46,445 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:46,445 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:46,446 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:47,308 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:47,344 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:47,345 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:47,345 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:48,409 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:48,464 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:48,465 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:48,465 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:49,276 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:49,310 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:49,310 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:49,310 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:50,324 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:50,360 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:50,360 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:50,361 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:51,427 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:51,460 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:51,461 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:51,461 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:52,474 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:52,549 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:52,550 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:52,550 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:53,464 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:53,500 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:53,500 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:53,501 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:54,363 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:54,399 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:54,400 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:54,400 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:55,313 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:55,350 [ERROR] Connect attempt to <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]> returned error 111. Disconnecting.
+2025-10-19 11:15:55,350 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 11:15:55,350 [WARNING] Node 1 connection failed -- refreshing metadata
+2025-10-19 11:15:56,464 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:56,500 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:15:56,715 [ERROR] Error fetching metadata for topic topic_disk: <class 'kafka.errors.InvalidReplicationFactorError'>
+2025-10-19 11:15:56,716 [ERROR] Error fetching metadata for topic topic_net: <class 'kafka.errors.InvalidReplicationFactorError'>
+2025-10-19 11:15:57,415 [INFO] Group coordinator for team-consumer2-fast is BrokerMetadata(nodeId='coordinator-1', host='10.147.17.172', port=9092, rack=None)
+2025-10-19 11:15:57,416 [INFO] Discovered coordinator coordinator-1 for group team-consumer2-fast
+2025-10-19 11:15:57,416 [WARNING] Marking the coordinator dead (node coordinator-1) for group team-consumer2-fast: Node Disconnected.
+2025-10-19 11:15:57,416 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:15:57,467 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:15:57,469 [INFO] Group coordinator for team-consumer2-fast is BrokerMetadata(nodeId='coordinator-1', host='10.147.17.172', port=9092, rack=None)
+2025-10-19 11:15:57,469 [INFO] Discovered coordinator coordinator-1 for group team-consumer2-fast
+2025-10-19 11:15:57,470 [INFO] Revoking previously assigned partitions {TopicPartition(topic='topic_disk', partition=0), TopicPartition(topic='topic_net', partition=0)} for group team-consumer2-fast
+2025-10-19 11:15:57,470 [INFO] (Re-)joining group team-consumer2-fast
+2025-10-19 11:15:57,546 [INFO] Elected group leader -- performing partition assignments using range
+2025-10-19 11:15:57,547 [WARNING] No partition metadata for topic topic_net
+2025-10-19 11:15:57,547 [WARNING] No partition metadata for topic topic_disk
+2025-10-19 11:15:57,645 [INFO] Successfully joined group team-consumer2-fast with generation 3
+2025-10-19 11:15:57,646 [INFO] Updated partition assignment: []
+2025-10-19 11:15:57,647 [INFO] Setting newly assigned partitions set() for group team-consumer2-fast
+2025-10-19 11:15:57,647 [INFO] Revoking previously assigned partitions set() for group team-consumer2-fast
+2025-10-19 11:15:57,647 [INFO] (Re-)joining group team-consumer2-fast
+2025-10-19 11:15:57,695 [INFO] Elected group leader -- performing partition assignments using range
+2025-10-19 11:15:58,266 [INFO] Successfully joined group team-consumer2-fast with generation 4
+2025-10-19 11:15:58,267 [INFO] Updated partition assignment: [TopicPartition(topic='topic_disk', partition=0), TopicPartition(topic='topic_net', partition=0)]
+2025-10-19 11:15:58,267 [INFO] Setting newly assigned partitions {TopicPartition(topic='topic_disk', partition=0), TopicPartition(topic='topic_net', partition=0)} for group team-consumer2-fast
+2025-10-19 11:16:42,732 [INFO] Stopping heartbeat thread
+2025-10-19 11:16:42,733 [INFO] Leaving consumer group (team-consumer2-fast).
+2025-10-19 11:16:42,786 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 11:16:42,787 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 11:16:42,788 [INFO] Consumer2 finished processing 28805 messages
+2025-10-19 11:23:49,152 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:23:49,152 [INFO] Probing node bootstrap-0 broker version
+2025-10-19 11:23:49,202 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:23:49,349 [INFO] Broker version identified as 2.5.0
+2025-10-19 11:23:49,349 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-10-19 11:23:49,351 [INFO] Updating subscribed topics to: ('topic_net', 'topic_disk')
+2025-10-19 11:23:49,352 [INFO] Consumer2 started. Listening to ['topic_net', 'topic_disk']
+2025-10-19 11:23:49,427 [INFO] Group coordinator for team-consumer2-fast is BrokerMetadata(nodeId='coordinator-1', host='10.147.17.172', port=9092, rack=None)
+2025-10-19 11:23:49,427 [INFO] Discovered coordinator coordinator-1 for group team-consumer2-fast
+2025-10-19 11:23:49,427 [INFO] Starting new heartbeat thread
+2025-10-19 11:23:49,428 [INFO] Revoking previously assigned partitions set() for group team-consumer2-fast
+2025-10-19 11:23:49,429 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:23:49,530 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:23:49,531 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 11:23:49,633 [INFO] (Re-)joining group team-consumer2-fast
+2025-10-19 11:23:49,634 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:23:49,672 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:23:49,678 [INFO] Elected group leader -- performing partition assignments using range
+2025-10-19 11:23:49,679 [WARNING] No partition metadata for topic topic_disk
+2025-10-19 11:23:49,679 [WARNING] No partition metadata for topic topic_net
+2025-10-19 11:23:49,722 [INFO] Successfully joined group team-consumer2-fast with generation 6
+2025-10-19 11:23:49,722 [INFO] Updated partition assignment: []
+2025-10-19 11:23:49,723 [INFO] Setting newly assigned partitions set() for group team-consumer2-fast
+2025-10-19 11:23:49,723 [INFO] Revoking previously assigned partitions set() for group team-consumer2-fast
+2025-10-19 11:23:49,723 [INFO] (Re-)joining group team-consumer2-fast
+2025-10-19 11:23:49,792 [INFO] Elected group leader -- performing partition assignments using range
+2025-10-19 11:23:49,827 [INFO] Successfully joined group team-consumer2-fast with generation 7
+2025-10-19 11:23:49,827 [INFO] Updated partition assignment: [TopicPartition(topic='topic_disk', partition=0), TopicPartition(topic='topic_net', partition=0)]
+2025-10-19 11:23:49,827 [INFO] Setting newly assigned partitions {TopicPartition(topic='topic_disk', partition=0), TopicPartition(topic='topic_net', partition=0)} for group team-consumer2-fast
+2025-10-19 11:23:49,828 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:23:49,928 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:23:49,929 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 11:27:57,320 [INFO] Consumer2 stopped manually.
+2025-10-19 11:27:57,320 [INFO] Stopping heartbeat thread
+2025-10-19 11:28:31,325 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:28:31,325 [INFO] Probing node bootstrap-0 broker version
+2025-10-19 11:28:31,359 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:28:31,518 [INFO] Broker version identified as 2.5.0
+2025-10-19 11:28:31,518 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-10-19 11:28:31,519 [INFO] Updating subscribed topics to: ('topic_net', 'topic_disk')
+2025-10-19 11:28:31,519 [INFO] Consumer2 started. Listening to ['topic_net', 'topic_disk']
+2025-10-19 11:28:31,554 [INFO] Group coordinator for team-consumer2-fast is BrokerMetadata(nodeId='coordinator-1', host='10.147.17.172', port=9092, rack=None)
+2025-10-19 11:28:31,555 [INFO] Discovered coordinator coordinator-1 for group team-consumer2-fast
+2025-10-19 11:28:31,555 [INFO] Starting new heartbeat thread
+2025-10-19 11:28:31,555 [INFO] Revoking previously assigned partitions set() for group team-consumer2-fast
+2025-10-19 11:28:31,556 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:28:31,657 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:28:31,658 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 11:28:31,758 [INFO] (Re-)joining group team-consumer2-fast
+2025-10-19 11:28:31,760 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:28:31,800 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:28:31,800 [INFO] Elected group leader -- performing partition assignments using range
+2025-10-19 11:28:31,800 [WARNING] No partition metadata for topic topic_disk
+2025-10-19 11:28:31,800 [WARNING] No partition metadata for topic topic_net
+2025-10-19 11:28:31,870 [INFO] Successfully joined group team-consumer2-fast with generation 9
+2025-10-19 11:28:31,870 [INFO] Updated partition assignment: []
+2025-10-19 11:28:31,871 [INFO] Setting newly assigned partitions set() for group team-consumer2-fast
+2025-10-19 11:28:31,871 [INFO] Revoking previously assigned partitions set() for group team-consumer2-fast
+2025-10-19 11:28:31,871 [INFO] (Re-)joining group team-consumer2-fast
+2025-10-19 11:28:31,930 [INFO] Elected group leader -- performing partition assignments using range
+2025-10-19 11:28:31,980 [INFO] Successfully joined group team-consumer2-fast with generation 10
+2025-10-19 11:28:31,980 [INFO] Updated partition assignment: [TopicPartition(topic='topic_disk', partition=0), TopicPartition(topic='topic_net', partition=0)]
+2025-10-19 11:28:31,980 [INFO] Setting newly assigned partitions {TopicPartition(topic='topic_net', partition=0), TopicPartition(topic='topic_disk', partition=0)} for group team-consumer2-fast
+2025-10-19 11:28:31,980 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:28:32,081 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:28:32,081 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 11:28:51,763 [INFO] Stopping heartbeat thread
+2025-10-19 11:28:51,763 [INFO] Leaving consumer group (team-consumer2-fast).
+2025-10-19 11:28:51,839 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 11:28:51,840 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 11:28:51,840 [INFO] Consumer2 finished. NET=28523, DISK=28000
+2025-10-19 11:51:52,927 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:51:52,928 [INFO] Probing node bootstrap-0 broker version
+2025-10-19 11:51:52,986 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:51:53,129 [INFO] Broker version identified as 2.5.0
+2025-10-19 11:51:53,129 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-10-19 11:51:53,129 [INFO] Updating subscribed topics to: ('topic_net', 'topic_disk')
+2025-10-19 11:51:53,130 [INFO] Consumer2 started. Listening to ['topic_net', 'topic_disk']
+2025-10-19 11:51:53,182 [INFO] Group coordinator for team-consumer2-fast is BrokerMetadata(nodeId='coordinator-1', host='10.147.17.172', port=9092, rack=None)
+2025-10-19 11:51:53,182 [INFO] Discovered coordinator coordinator-1 for group team-consumer2-fast
+2025-10-19 11:51:53,182 [INFO] Starting new heartbeat thread
+2025-10-19 11:51:53,182 [INFO] Revoking previously assigned partitions set() for group team-consumer2-fast
+2025-10-19 11:51:53,183 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:51:53,283 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:51:53,284 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 11:51:53,385 [INFO] (Re-)joining group team-consumer2-fast
+2025-10-19 11:51:53,432 [INFO] Elected group leader -- performing partition assignments using range
+2025-10-19 11:51:53,434 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:51:53,477 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:51:53,482 [INFO] Successfully joined group team-consumer2-fast with generation 12
+2025-10-19 11:51:53,482 [INFO] Updated partition assignment: [TopicPartition(topic='topic_disk', partition=0), TopicPartition(topic='topic_net', partition=0)]
+2025-10-19 11:51:53,483 [INFO] Setting newly assigned partitions {TopicPartition(topic='topic_disk', partition=0), TopicPartition(topic='topic_net', partition=0)} for group team-consumer2-fast
+2025-10-19 11:51:58,182 [INFO] Stopping heartbeat thread
+2025-10-19 11:51:58,182 [INFO] Leaving consumer group (team-consumer2-fast).
+2025-10-19 11:51:58,263 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 11:51:58,264 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 11:51:58,264 [ERROR] Fetch to node 1 failed: Cancelled: <BrokerConnection node_id=1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>
+2025-10-19 11:51:58,264 [INFO] Consumer2 finished. NET=30000, DISK=38710
+2025-10-19 11:52:18,952 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:52:18,953 [INFO] Probing node bootstrap-0 broker version
+2025-10-19 11:52:18,987 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:52:19,129 [INFO] Broker version identified as 2.5.0
+2025-10-19 11:52:19,129 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-10-19 11:52:19,130 [INFO] Updating subscribed topics to: ('topic_net', 'topic_disk')
+2025-10-19 11:52:19,130 [INFO] Consumer2 started. Listening to ['topic_net', 'topic_disk']
+2025-10-19 11:52:19,172 [INFO] Group coordinator for team-consumer2-fast is BrokerMetadata(nodeId='coordinator-1', host='10.147.17.172', port=9092, rack=None)
+2025-10-19 11:52:19,172 [INFO] Discovered coordinator coordinator-1 for group team-consumer2-fast
+2025-10-19 11:52:19,172 [INFO] Starting new heartbeat thread
+2025-10-19 11:52:19,173 [INFO] Revoking previously assigned partitions set() for group team-consumer2-fast
+2025-10-19 11:52:19,173 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:52:19,274 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:52:19,274 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 11:52:19,375 [INFO] (Re-)joining group team-consumer2-fast
+2025-10-19 11:52:19,422 [INFO] Elected group leader -- performing partition assignments using range
+2025-10-19 11:52:19,424 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 11:52:19,477 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 11:52:19,482 [INFO] Successfully joined group team-consumer2-fast with generation 14
+2025-10-19 11:52:19,483 [INFO] Updated partition assignment: [TopicPartition(topic='topic_disk', partition=0), TopicPartition(topic='topic_net', partition=0)]
+2025-10-19 11:52:19,483 [INFO] Setting newly assigned partitions {TopicPartition(topic='topic_net', partition=0), TopicPartition(topic='topic_disk', partition=0)} for group team-consumer2-fast
+2025-10-19 11:52:23,682 [INFO] Stopping heartbeat thread
+2025-10-19 11:52:23,683 [INFO] Leaving consumer group (team-consumer2-fast).
+2025-10-19 11:52:23,838 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 11:52:23,838 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 11:52:23,838 [ERROR] Fetch to node 1 failed: Cancelled: <BrokerConnection node_id=1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>
+2025-10-19 11:52:23,838 [INFO] Consumer2 finished. NET=30000, DISK=38596
+2025-10-19 12:30:16,659 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 12:30:16,662 [INFO] Probing node bootstrap-0 broker version
+2025-10-19 12:30:16,706 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 12:30:16,869 [INFO] Broker version identified as 2.5.0
+2025-10-19 12:30:16,869 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-10-19 12:30:16,870 [INFO] Updating subscribed topics to: ('topic_net', 'topic_disk')
+2025-10-19 12:30:16,870 [INFO] Consumer2 started. Listening to ['topic_net', 'topic_disk']
+2025-10-19 12:30:16,907 [INFO] Group coordinator for team-consumer2-fast is BrokerMetadata(nodeId='coordinator-1', host='10.147.17.172', port=9092, rack=None)
+2025-10-19 12:30:16,907 [INFO] Discovered coordinator coordinator-1 for group team-consumer2-fast
+2025-10-19 12:30:16,907 [INFO] Starting new heartbeat thread
+2025-10-19 12:30:16,907 [INFO] Revoking previously assigned partitions set() for group team-consumer2-fast
+2025-10-19 12:30:16,908 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 12:30:17,008 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 12:30:17,009 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 12:30:17,110 [INFO] (Re-)joining group team-consumer2-fast
+2025-10-19 12:30:17,112 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 12:30:17,166 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 12:30:17,167 [INFO] Elected group leader -- performing partition assignments using range
+2025-10-19 12:30:17,167 [WARNING] No partition metadata for topic topic_net
+2025-10-19 12:30:17,167 [WARNING] No partition metadata for topic topic_disk
+2025-10-19 12:30:17,241 [INFO] Successfully joined group team-consumer2-fast with generation 1
+2025-10-19 12:30:17,241 [INFO] Updated partition assignment: []
+2025-10-19 12:30:17,242 [INFO] Setting newly assigned partitions set() for group team-consumer2-fast
+2025-10-19 12:30:17,242 [INFO] Revoking previously assigned partitions set() for group team-consumer2-fast
+2025-10-19 12:30:17,242 [INFO] (Re-)joining group team-consumer2-fast
+2025-10-19 12:30:17,307 [INFO] Elected group leader -- performing partition assignments using range
+2025-10-19 12:30:17,361 [INFO] Successfully joined group team-consumer2-fast with generation 2
+2025-10-19 12:30:17,361 [INFO] Updated partition assignment: [TopicPartition(topic='topic_disk', partition=0), TopicPartition(topic='topic_net', partition=0)]
+2025-10-19 12:30:17,361 [INFO] Setting newly assigned partitions {TopicPartition(topic='topic_net', partition=0), TopicPartition(topic='topic_disk', partition=0)} for group team-consumer2-fast
+2025-10-19 12:30:17,361 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 12:30:17,462 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 12:30:17,462 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 12:36:21,753 [INFO] Stopping heartbeat thread
+2025-10-19 12:36:21,754 [INFO] Leaving consumer group (team-consumer2-fast).
+2025-10-19 12:36:21,792 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 12:36:21,792 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 12:36:21,793 [INFO] Consumer2 finished. NET=30000, DISK=31034
+2025-10-19 12:42:36,668 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 12:42:36,669 [INFO] Probing node bootstrap-0 broker version
+2025-10-19 12:42:36,716 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 12:42:36,873 [INFO] Broker version identified as 2.5.0
+2025-10-19 12:42:36,873 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-10-19 12:42:36,875 [INFO] Updating subscribed topics to: ('topic_net', 'topic_disk')
+2025-10-19 12:42:36,875 [INFO] Consumer2 started. Listening to ['topic_net', 'topic_disk']
+2025-10-19 12:42:36,914 [INFO] Group coordinator for team-consumer2-fast is BrokerMetadata(nodeId='coordinator-1', host='10.147.17.172', port=9092, rack=None)
+2025-10-19 12:42:36,914 [INFO] Discovered coordinator coordinator-1 for group team-consumer2-fast
+2025-10-19 12:42:36,914 [INFO] Starting new heartbeat thread
+2025-10-19 12:42:36,915 [INFO] Revoking previously assigned partitions set() for group team-consumer2-fast
+2025-10-19 12:42:36,915 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 12:42:37,016 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 12:42:37,016 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 12:42:37,117 [INFO] (Re-)joining group team-consumer2-fast
+2025-10-19 12:42:37,156 [INFO] Elected group leader -- performing partition assignments using range
+2025-10-19 12:42:37,158 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 12:42:37,203 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 12:42:37,214 [INFO] Successfully joined group team-consumer2-fast with generation 4
+2025-10-19 12:42:37,214 [INFO] Updated partition assignment: [TopicPartition(topic='topic_disk', partition=0), TopicPartition(topic='topic_net', partition=0)]
+2025-10-19 12:42:37,214 [INFO] Setting newly assigned partitions {TopicPartition(topic='topic_disk', partition=0), TopicPartition(topic='topic_net', partition=0)} for group team-consumer2-fast
+2025-10-19 12:42:42,728 [INFO] Consumer2 stopped manually.
+2025-10-19 12:42:42,728 [INFO] Stopping heartbeat thread
+2025-10-19 12:59:39,888 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 12:59:39,889 [INFO] Probing node bootstrap-0 broker version
+2025-10-19 12:59:39,953 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 12:59:40,119 [INFO] Broker version identified as 2.5.0
+2025-10-19 12:59:40,119 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-10-19 12:59:40,120 [INFO] Updating subscribed topics to: ('topic_net', 'topic_disk')
+2025-10-19 12:59:40,121 [INFO] Consumer2 started. Listening to ['topic_net', 'topic_disk']
+2025-10-19 12:59:40,163 [INFO] Group coordinator for team-consumer2-fast is BrokerMetadata(nodeId='coordinator-1', host='10.147.17.172', port=9092, rack=None)
+2025-10-19 12:59:40,163 [INFO] Discovered coordinator coordinator-1 for group team-consumer2-fast
+2025-10-19 12:59:40,164 [INFO] Starting new heartbeat thread
+2025-10-19 12:59:40,164 [INFO] Revoking previously assigned partitions set() for group team-consumer2-fast
+2025-10-19 12:59:40,165 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 12:59:40,267 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 12:59:40,267 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 12:59:40,368 [INFO] (Re-)joining group team-consumer2-fast
+2025-10-19 12:59:40,369 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 12:59:40,409 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 12:59:40,438 [INFO] Elected group leader -- performing partition assignments using range
+2025-10-19 12:59:40,438 [WARNING] No partition metadata for topic topic_disk
+2025-10-19 12:59:40,438 [WARNING] No partition metadata for topic topic_net
+2025-10-19 12:59:40,490 [INFO] Successfully joined group team-consumer2-fast with generation 6
+2025-10-19 12:59:40,490 [INFO] Updated partition assignment: []
+2025-10-19 12:59:40,490 [INFO] Setting newly assigned partitions set() for group team-consumer2-fast
+2025-10-19 12:59:40,491 [INFO] Revoking previously assigned partitions set() for group team-consumer2-fast
+2025-10-19 12:59:40,491 [INFO] (Re-)joining group team-consumer2-fast
+2025-10-19 12:59:40,533 [INFO] Elected group leader -- performing partition assignments using range
+2025-10-19 12:59:40,568 [INFO] Successfully joined group team-consumer2-fast with generation 7
+2025-10-19 12:59:40,568 [INFO] Updated partition assignment: [TopicPartition(topic='topic_disk', partition=0), TopicPartition(topic='topic_net', partition=0)]
+2025-10-19 12:59:40,568 [INFO] Setting newly assigned partitions {TopicPartition(topic='topic_disk', partition=0), TopicPartition(topic='topic_net', partition=0)} for group team-consumer2-fast
+2025-10-19 12:59:40,609 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 12:59:40,648 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 12:59:40,648 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 13:00:44,462 [INFO] Consumer2 stopped manually.
+2025-10-19 13:00:44,608 [INFO] Stopping heartbeat thread
+2025-10-19 13:00:44,609 [INFO] Leaving consumer group (team-consumer2-fast).
+2025-10-19 13:00:44,679 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 13:00:44,679 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 13:00:44,680 [ERROR] Fetch to node 1 failed: Cancelled: <BrokerConnection node_id=1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>
+2025-10-19 13:00:44,680 [INFO] Consumer2 finished. NET=26566, DISK=26566
+2025-10-19 13:06:06,642 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 13:06:06,642 [INFO] Probing node bootstrap-0 broker version
+2025-10-19 13:06:06,688 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 13:06:06,836 [INFO] Broker version identified as 2.5.0
+2025-10-19 13:06:06,836 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-10-19 13:06:06,837 [INFO] Updating subscribed topics to: ('topic_net', 'topic_disk')
+2025-10-19 13:06:06,884 [INFO] Group coordinator for team-consumer2-fast is BrokerMetadata(nodeId='coordinator-1', host='10.147.17.172', port=9092, rack=None)
+2025-10-19 13:06:06,884 [INFO] Discovered coordinator coordinator-1 for group team-consumer2-fast
+2025-10-19 13:06:06,884 [INFO] Starting new heartbeat thread
+2025-10-19 13:06:06,885 [INFO] Revoking previously assigned partitions set() for group team-consumer2-fast
+2025-10-19 13:06:06,886 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 13:06:06,987 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 13:06:06,988 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 13:06:07,090 [INFO] (Re-)joining group team-consumer2-fast
+2025-10-19 13:06:07,092 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 13:06:07,134 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 13:06:07,136 [INFO] Elected group leader -- performing partition assignments using range
+2025-10-19 13:06:07,136 [WARNING] No partition metadata for topic topic_disk
+2025-10-19 13:06:07,136 [WARNING] No partition metadata for topic topic_net
+2025-10-19 13:06:07,179 [INFO] Successfully joined group team-consumer2-fast with generation 9
+2025-10-19 13:06:07,179 [INFO] Updated partition assignment: []
+2025-10-19 13:06:07,179 [INFO] Setting newly assigned partitions set() for group team-consumer2-fast
+2025-10-19 13:06:07,179 [INFO] Revoking previously assigned partitions set() for group team-consumer2-fast
+2025-10-19 13:06:07,179 [INFO] (Re-)joining group team-consumer2-fast
+2025-10-19 13:06:07,225 [INFO] Elected group leader -- performing partition assignments using range
+2025-10-19 13:06:07,268 [INFO] Successfully joined group team-consumer2-fast with generation 10
+2025-10-19 13:06:07,269 [INFO] Updated partition assignment: [TopicPartition(topic='topic_disk', partition=0), TopicPartition(topic='topic_net', partition=0)]
+2025-10-19 13:06:07,269 [INFO] Setting newly assigned partitions {TopicPartition(topic='topic_net', partition=0), TopicPartition(topic='topic_disk', partition=0)} for group team-consumer2-fast
+2025-10-19 13:06:07,310 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: connecting to 10.147.17.172:9092 [('10.147.17.172', 9092) IPv4]
+2025-10-19 13:06:07,349 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connecting> [IPv4 ('10.147.17.172', 9092)]>: Connection complete.
+2025-10-19 13:06:07,349 [INFO] <BrokerConnection node_id=bootstrap-0 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 13:07:08,533 [INFO] Consumer2 stopped manually.
+2025-10-19 13:07:08,644 [INFO] Stopping heartbeat thread
+2025-10-19 13:07:08,745 [INFO] Leaving consumer group (team-consumer2-fast).
+2025-10-19 13:07:08,784 [INFO] <BrokerConnection node_id=coordinator-1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 13:07:08,785 [INFO] <BrokerConnection node_id=1 host=10.147.17.172:9092 <connected> [IPv4 ('10.147.17.172', 9092)]>: Closing connection. 
+2025-10-19 13:07:08,786 [INFO] Consumer2 finished. NET=28800, DISK=28800
